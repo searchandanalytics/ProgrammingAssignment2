@@ -29,11 +29,10 @@ makeCacheMatrix <- function(x = matrix()) {
        getmatrix = getmatrix)
 }
 
-# Retruns inverse of the matrix. If inverse already calculated then retrun cached inverse of matrix.
+## This Function retrun inverse of the matrix. If inverse already calculated then retrun cached inverse of matrix.
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
-  
+       
   ## get the inverse of the matrix    
   m <- x$getmatrix()
   
